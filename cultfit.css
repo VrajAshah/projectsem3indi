@@ -1,0 +1,69 @@
+body{
+    background: #171A26;
+    
+}
+
+.main{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    
+}
+
+.header{
+
+}
+
+.navbar{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+.navbar_main{
+    width: 100%;
+    height: 60px;
+    background-image: linear-gradient(to bottom, #171A26, rgba(23, 26, 38, 0.0001));
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.nav_content{
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    font-style: Futura XBlk BT;
+    
+}
+
+.nav_01 > a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.nav_01{
+    padding:6px 7vw 0 0;
+}
+
+.nav_location{
+    display: flex;
+}
+
+.nav_02{
+    padding: 6px 2vw 0 0;
+}
+
+.location_button{
+    margin-top: 2.5px;
+    border: 2px solid rgba(255, 255, 255, 0.75);
+    background: transparent;
+    color: aliceblue;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
